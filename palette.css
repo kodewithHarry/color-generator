@@ -1,0 +1,99 @@
+.colorDisplay {
+  width: 100%;
+  height: 200px;
+  border-style: double;
+  border-color: white;
+  border-radius: 10px;
+  background-color: white;
+ 
+}
+.info{
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: space-evenly;
+  
+  background-color: white;
+  height: 30px;
+  margin-top: 10px;
+}
+#hex {
+  display: inline-block;
+  margin-left: 10px;
+  color: white;
+}
+#rgb {
+  display: inline-block;
+  margin-left: 200px;
+  color: white;
+}
+#red {
+  margin-left:80px;
+  margin-top: 20px;
+}
+.Bgroup1, .Bgroup2, .Bgroup3{
+  margin: 10px;
+  text-align: center;
+}
+input[type=button]{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  margin: 15px;
+  font-size: 25px;
+  color: #ffffff;
+  box-shadow: 0 0 5px #777777;
+  
+}
+.greenButton{
+  background-color: green;
+}
+.redButton {
+  background-color: red;
+}
+.blueButton{
+  background-color: blue;
+}
+body {
+  background-color: #1a1a1a;
+}
+.redinfo{
+  height: 70%;
+  width: 20px;
+  background-color: red;
+  margin-top:4px;
+}
+.greeninfo{
+  height:70%;
+  width: 20px;
+  background-color: green;
+  margin-top: 4px;
+  margin-left: 70px;
+}
+.blueinfo{
+  margin-top: px;
+  height: 70%;
+  width: 20px;
+  background-color: blue;
+  margin-top: 4px;
+  margin-left: 70px;
+}
+label{
+  font-weight:bold;
+  margin-top:4px;
+  
+}
+.body-container{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.b-container {
+  border-width: 7px;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+  
+}
